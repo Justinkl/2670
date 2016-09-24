@@ -22,7 +22,7 @@ public class RecycleComponent : MonoBehaviour
 */
 	void OnTriggerEnter ()
 	{
-		newLocation.x = StaticVar.nextSectionPos;
+		newLocation.z = StaticVar.nextSectionPos;
 		transform.localPosition = newLocation; //---->recycleAbleList[i].cube.position = newLocation;
 		StaticVar.nextSectionPos += StaticVar.distance;
 
