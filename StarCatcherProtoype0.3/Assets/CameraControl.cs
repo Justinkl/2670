@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraControl : MonoBehaviour {
 
-    public float speed = 1f;
+    public float speed = 5f;
     private Vector3 tempPos;
 
     void Update()

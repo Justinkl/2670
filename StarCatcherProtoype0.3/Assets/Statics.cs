@@ -1,7 +1,8 @@
 ﻿public class Statics
 {
 
-    public static float distance = 4;
-    public static float nextPostion = 4;
+    public static float distance = 15;
+    public static float nextPosition = 75;
+   //public static float startPos = 15;
 
 }
