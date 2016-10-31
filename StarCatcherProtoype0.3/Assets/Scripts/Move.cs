@@ -10,7 +10,7 @@ public class Move : MonoBehaviour {
     //Speed of the temp var in x
     public float speed = 1;
     public float gravity = 1;
-    public float jumpSpeed = 11;
+    public float jumpSpeed = 12;
     public int jumpCount = 0;
     public int jumpCountMax = 2;
     // Use this for initialization

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ad4661b828bc5946975ec86cdfe9e0a
+guid: aaf7457eb9cdd914b8dea118cb7ec25d
 timeCreated: 1475982560
 licenseType: Free
 TextureImporter:
@@ -54,11 +54,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Rabbit Sprite Sheet_0
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_0
       rect:
         serializedVersion: 2
         x: 19
@@ -68,17 +71,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 67.5, y: 4.5}
-        - {x: 65.5, y: 2.5}
-        - {x: 41.5, y: 35.5}
-        - {x: -40.5, y: 35.5}
-        - {x: -70.5, y: 29.5}
-        - {x: -70.5, y: -34.5}
-        - {x: -59.5, y: -35.5}
-        - {x: 70.5, y: -35.5}
-        - {x: 70.5, y: 4.5}
-    - name: Rabbit Sprite Sheet_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_1
       rect:
         serializedVersion: 2
         x: 211
@@ -88,22 +84,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 64, y: 6.5}
-        - {x: 33, y: 43.5}
-        - {x: 15, y: 43.5}
-        - {x: 14, y: 21.5}
-        - {x: 19, y: 16.5}
-        - {x: -32, y: 42.5}
-        - {x: -54, y: 36.5}
-        - {x: -68, y: -5.5}
-        - {x: -68, y: -23.5}
-        - {x: 22, y: -43.5}
-        - {x: 67, y: -43.5}
-        - {x: 68, y: -42.5}
-        - {x: 68, y: 9.5}
-        - {x: 66, y: 8.5}
-    - name: Rabbit Sprite Sheet_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_2
       rect:
         serializedVersion: 2
         x: 398
@@ -113,30 +97,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 49, y: 16.5}
-        - {x: 12, y: 41.5}
-        - {x: -7, y: 41.5}
-        - {x: -11, y: 40.5}
-        - {x: -7, y: 24.5}
-        - {x: -1, y: 14.5}
-        - {x: 2, y: 11.5}
-        - {x: 9, y: 8.5}
-        - {x: 11, y: 8.5}
-        - {x: 6, y: 8.5}
-        - {x: -16, y: 24.5}
-        - {x: -17, y: 36.5}
-        - {x: -49, y: 41.5}
-        - {x: -54, y: 41.5}
-        - {x: -54, y: -8.5}
-        - {x: -42, y: -40.5}
-        - {x: -38, y: -41.5}
-        - {x: 34, y: -41.5}
-        - {x: 36, y: -38.5}
-        - {x: 54, y: -8.5}
-        - {x: 54, y: 15.5}
-        - {x: 51, y: 16.5}
-    - name: Rabbit Sprite Sheet_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_3
       rect:
         serializedVersion: 2
         x: 585
@@ -146,22 +110,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 48.5, y: 16.5}
-        - {x: 20.5, y: 39.5}
-        - {x: -46.5, y: 39.5}
-        - {x: -49.5, y: 38.5}
-        - {x: -49.5, y: -14.5}
-        - {x: -32.5, y: -39.5}
-        - {x: -18.5, y: -39.5}
-        - {x: -9.5, y: -29.5}
-        - {x: -14.5, y: -35.5}
-        - {x: -16.5, y: -39.5}
-        - {x: 6.5, y: -39.5}
-        - {x: 47.5, y: -18.5}
-        - {x: 49.5, y: -13.5}
-        - {x: 49.5, y: 14.5}
-    - name: Rabbit Sprite Sheet_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_4
       rect:
         serializedVersion: 2
         x: 762
@@ -171,17 +123,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 37}
-        - {x: -49, y: 27}
-        - {x: -49, y: -8}
-        - {x: -13, y: -37}
-        - {x: 29, y: -37}
-        - {x: 35, y: -35}
-        - {x: 49, y: -10}
-        - {x: 49, y: 22}
-        - {x: 1, y: 37}
-    - name: Rabbit Sprite Sheet_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_5
       rect:
         serializedVersion: 2
         x: 930
@@ -191,15 +136,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12.5, y: 38}
-        - {x: -50.5, y: 38}
-        - {x: -50.5, y: -25}
-        - {x: -31.5, y: -38}
-        - {x: 27.5, y: -38}
-        - {x: 50.5, y: -22}
-        - {x: 50.5, y: 33}
-    - name: Rabbit Sprite Sheet_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_6
       rect:
         serializedVersion: 2
         x: 1105
@@ -209,16 +149,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 18, y: 40.5}
-        - {x: -29, y: 40.5}
-        - {x: -53, y: 25.5}
-        - {x: -53, y: -40.5}
-        - {x: -4, y: -40.5}
-        - {x: 53, y: -29.5}
-        - {x: 53, y: 25.5}
-        - {x: 48, y: 31.5}
-    - name: Rabbit Sprite Sheet_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rabbit Sprite Sheet_7
       rect:
         serializedVersion: 2
         x: 1282
@@ -228,18 +162,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 46}
-        - {x: -3, y: 46}
-        - {x: -6, y: 41}
-        - {x: -5, y: 35}
-        - {x: -53, y: 29}
-        - {x: -57, y: 1}
-        - {x: -57, y: -46}
-        - {x: -46, y: -46}
-        - {x: 48, y: -20}
-        - {x: 57, y: -7}
-        - {x: 57, y: 24}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
