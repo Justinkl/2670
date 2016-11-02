@@ -11,7 +11,7 @@ public class SendToRecycler : MonoBehaviour {
     {
         if(canRecycle)
         {
-            SendThis(this);
+           // SendThis(this);
         }
     }
 
