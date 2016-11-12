@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Move : MonoBehaviour {
+
+	private int count;
+	public Text Score;
 
     //This is the CharacterController component
     private CharacterController myCC;
@@ -48,4 +52,18 @@ public class Move : MonoBehaviour {
         myCC.Move(tempPos * Time.deltaTime);
 
     }
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag ("Star")) {
+			Destroy (other.gameObject);
+			count = count + 1;
+			SetCountCountText ();
+		}
+	}
+
+	void SetCountCountText ()
+	{
+		Score.text = "Score: " + count.ToString ();
+	}
 }
