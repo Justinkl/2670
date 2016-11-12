@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CountDownTimer : MonoBehaviour
 {
-    float timeRemaining = 180;
+    float timeRemaining = 90 ;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +19,7 @@ public class CountDownTimer : MonoBehaviour
     {
         if (timeRemaining > 0)
         {
-            GUI.Label(new Rect(100, 100, 200, 100), "Timer :" + timeRemaining);
+            GUI.Label(new Rect(500, 175, 100, 100), "Timer :" + timeRemaining);
         }
         else
         {
