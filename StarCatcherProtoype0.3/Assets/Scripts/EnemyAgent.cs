@@ -9,5 +9,6 @@ public class EnemyAgent : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myAgent.destination = player.position;
+		myAgent.updateRotation = false;
 	}
 }

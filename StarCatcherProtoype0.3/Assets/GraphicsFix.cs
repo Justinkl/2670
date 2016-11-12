@@ -11,6 +11,8 @@ public class GraphicsFix : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.rotation.y = rotateRef.transform.rotation.y;
+		
+		transform.eulerAngles = rotateRef.transform.eulerAngles;
+		transform.eulerAngles = new Vector3 (transform.eulerAngles.x, (-transform.eulerAngles.y / 2 ), transform.eulerAngles.z);
 	}
 }
