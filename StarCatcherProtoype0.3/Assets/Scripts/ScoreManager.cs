@@ -4,23 +4,28 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour {
 
-    public Text ScoreText;
-    public float scoreCount;
+	public static int score;
 
-    public float pointsPerSecond;
-    public bool scoreIncreasing;
+	Text text;
 
+	void Start()
+	{
+		text = GetComponent<Text>();
 
-	// Use this for initialization
-	void Start () {
-	
+		score = 0;
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-        scoreCount += pointsPerSecond * Time.deltaTime;
+	void Update()
+	{
+		if (score < 0)
+			score = 0;
 
-        ScoreText.text = "Score: " + Mathf.Round (scoreCount);
+		text.text = "" + score;
 	}
+
+	public static void AddPoints (int pointsToAdd)
+	{
+		score += pointsToAdd;
+	}
+
 }
