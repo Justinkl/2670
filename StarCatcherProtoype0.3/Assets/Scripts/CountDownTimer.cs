@@ -19,7 +19,7 @@ public class CountDownTimer : MonoBehaviour
     {
         if (timeRemaining > 0)
         {
-            GUI.Label(new Rect(500, 175, 100, 100), "Timer :" + timeRemaining);
+            GUI.Label(new Rect(600, 300, 100, 100), "Timer :" + timeRemaining);
         }
         else
         {
