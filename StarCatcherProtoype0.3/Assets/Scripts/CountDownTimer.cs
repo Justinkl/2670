@@ -1,32 +1,35 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CountDownTimer : MonoBehaviour
 {
-    float timeRemaining = 90 ;
+	public Text timerText;
+    public float timeRemaining = 60 ;
+	private bool timerIsActive = true;
 
 	// Use this for initialization
 	void Start () {
 	
+		timerText = GetComponent<Text> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
     timeRemaining -= Time.deltaTime;
+		timerText.text = "Time Left; " + timeRemaining.ToString ("f0");
+
+		if (timeRemaining < 0) 
+		{
+			timeRemaining = 0;
+			timerIsActive = false;
+			GameOver ();
+		}
 	}
 
-    void OnGUI()
-    {
-        if (timeRemaining > 0)
-        {
-            GUI.Label(new Rect(600, 300, 100, 100), "Timer :" + timeRemaining);
-        }
-        else
-        {
-            GUI.Label(new Rect(100, 100, 100, 100), "End");
-        }
-     {
-
-     }
-    }
+	public void GameOver ()
+	{
+	}
+    
 }
