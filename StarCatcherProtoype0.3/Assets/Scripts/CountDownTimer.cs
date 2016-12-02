@@ -35,7 +35,7 @@ public class CountDownTimer : MonoBehaviour
 		gameOverText.text = "Game Over!";
 		gameOver = true;
 
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
     
 }
