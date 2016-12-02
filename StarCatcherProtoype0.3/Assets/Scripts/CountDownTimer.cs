@@ -30,6 +30,10 @@ public class CountDownTimer : MonoBehaviour
 
 	public void GameOver ()
 	{
+		gameOverText.text = "Game Over!";
+		gameOver = true;
+
+		SceneManager.LoadScene (0);
 	}
     
 }
