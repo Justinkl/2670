@@ -19,23 +19,27 @@ public class MenuManager : MonoBehaviour {
 	
 	}
 	
-	public void ExitPress ();
+	public void ExitPress ()
 	{
 		quitMenu.enabled = true;
 		startText.enabled = false;
 		exitText.enabled = false;
 	}
 
-	public void NoPress ();
+	public void NoPress ()
 	{
 		quitMenu.enabled = false;
 		startText.enabled = true;
 		exitText.enabled = true;
 	}
 
-	public void StartLevel ();
+	public void StartLevel ()
 	{
-		SceneManager.LoadScene ();
+		SceneManager.LoadScene (2);
 	}
 
+	public void ExitGame()
+	{
+		Application.Quit ();
+	}
 }
