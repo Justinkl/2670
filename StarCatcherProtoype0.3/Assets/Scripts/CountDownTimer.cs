@@ -8,6 +8,8 @@ public class CountDownTimer : MonoBehaviour
 	public Text timerText;
     public float timeRemaining = 60 ;
 	private bool timerIsActive = true;
+	private bool gameOver = false;
+	public Text gameOverText;
 
 	// Use this for initialization
 	void Start () {
