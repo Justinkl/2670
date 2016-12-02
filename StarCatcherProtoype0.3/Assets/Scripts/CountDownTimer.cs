@@ -18,7 +18,7 @@ public class CountDownTimer : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
     timeRemaining -= Time.deltaTime;
-		timerText.text = "Time Left; " + timeRemaining.ToString ("f0");
+		timerText.text = "Time Left: " + timeRemaining.ToString ("f0");
 
 		if (timeRemaining < 0) 
 		{
