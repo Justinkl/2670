@@ -63,7 +63,7 @@ public class StarControl : MonoBehaviour {
 
 
 
-    public float endTime = 3;
+    public float endTime = 4;
 
 
 
