@@ -12,6 +12,6 @@ public class LogoLoader : MonoBehaviour {
 	private IEnumerator Countdown ()
 	{
 		yield return new WaitForSeconds (3);
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 }
