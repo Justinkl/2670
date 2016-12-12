@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CoroutineOne : MonoBehaviour {
+public class WelcomeSwitchStatement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
